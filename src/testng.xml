@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon-Echo" parallel="classes" thread-count="2">
+<test name="Amazon-ECHO">
+    <classes>
+        <class name="com.ParallelRun.Amazon1"></class>
+        <class name="com.ParallelRun.Book"></class>
+    </classes>
+</test>
+</suite>
+
+
+
+
+
